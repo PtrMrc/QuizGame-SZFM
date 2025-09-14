@@ -8,6 +8,7 @@
 - A legjobban teljesítő diákokat jutalmaznánk, motiválva ezzel őket az órán való részvételre.
 - A kvíz átfogó és változatos kérdéseket tartalmazzon, segítve ezzel az ismeretszerzést.
 - A játék végeztével legyen lehetőségük átnézni a kérdésekre adott válaszokat, melyekből tanulhatnak.
+- A tanulók aktivitása sokszor alacsony, és a visszajelzések lassan érkeznek a pedagógushoz.
 
 ## Jelenlegi üzleti folyamatok:
 - Papíralapú felmérések
