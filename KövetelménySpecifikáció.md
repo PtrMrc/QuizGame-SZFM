@@ -15,6 +15,8 @@
 - A kvízzel a gyerekek versenyszellemét is szeretnénk előcsalogatni.
 - Túlságosan egysíkú pontrendszer
 - Nehéz nyílvántartás
+- Csalások kiküszöbölhetetlensége
+
 
 ## Igényelt üzleti folyamatok:
 - Webes megjelenítés
