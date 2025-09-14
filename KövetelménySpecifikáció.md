@@ -10,6 +10,8 @@
 - Papíralapú felmérések
 - Időigényes kiértékelés
 - A kvízzel a gyerekek versenyszellemét is szeretnénk előcsalogatni.
+- Túlságosan egysíkú pontrendszer
+- Nehéz nyílvántartás
 
 ## Igényelt üzleti folyamatok:
 - Webes megjelenítés
