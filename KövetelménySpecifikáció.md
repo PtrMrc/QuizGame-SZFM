@@ -3,6 +3,8 @@
 ## Jelenlegi helyzet:
 - Pályakezdő tanárokként színesebbé szeretnénk tenni az óráinkat.
 - Jelenleg az órák főként frontális oktatásra épülnek, ami kevésbé köti le a diákok figyelmét.
+- Abból a célból, hogy óráinkat interaktívabbá tegyük, egy kvízt szeretnénk készíttetni.
+- A tananyag ismétlése és számonkérése hagyományos formában történik, ami nem minden diáknak motiváló.
 
 ## Jelenlegi üzleti folyamatok:
 - Papíralapú felmérések
