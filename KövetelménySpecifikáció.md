@@ -35,3 +35,5 @@
 - A program nyilvántartja a kör során megszerzett összpontszámot.
 - A játék végeztével megjelenítődik képernyőn az elért pontszám, továbbá a korábbi játékosok nevei és pontszámai.
 - A felhasználónak lehetősége van megtekinteni a kitöltött kvízt, ahol láthatja a hozzájuk tartozó helyes válaszokat is.
+- A kérdések egy előre elkészítet json fájlból random kerülnek kiválasztásra.
+- Egy kérdés megválaszolására 20 másodperc áll rendelkezésre.
