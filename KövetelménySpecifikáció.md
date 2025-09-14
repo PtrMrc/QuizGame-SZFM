@@ -25,3 +25,6 @@
 - Az egy kérdésre kapott pontszám függ a válasz helyességétől és gyorsaságától is.
 - Minden kérdéshez 4 válaszlehetőség tartozik, melyből pontosan 1 válasz helyes.
 - A felhasználó kiválaszt egy választ, a program visszajelzést ad annak helyességéről és a kapott pontszámról.
+- A program nyilvántartja a kör során megszerzett összpontszámot.
+- A játék végeztével megjelenítődik képernyőn az elért pontszám, továbbá a korábbi játékosok nevei és pontszámai.
+- A felhasználónak lehetősége van megtekinteni a kitöltött kvízt, ahol láthatja a hozzájuk tartozó helyes válaszokat is.
