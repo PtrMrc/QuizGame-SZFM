@@ -29,7 +29,10 @@
 - 20 másodperces időkeret
 - Pontok nyílvántartása
 - Kapott pontszám kiszámítása gyorsasághoz és helyességhez kötötten
-- Utólagos áttekintés 
+- Utólagos áttekintés
+- Saját név megadása
+- 10 kérdéses kvíz generálása
+- Kérdésbázis megalkotása
 
 ## Követelmény lista:
 - A felhasználónak a játék kezdete előtt egy nevet kell megadnia, melyhez egy, az általa elért eredményt társítunk a játék végén.
