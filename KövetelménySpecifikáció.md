@@ -17,6 +17,10 @@
 - Túlságosan egysíkú pontrendszer
 - Nehéz nyílvántartás
 - Csalások kiküszöbölhetetlensége
+- Manuálisan történő javítás
+- Alacsony aktivitás
+- Nem lehet értékelni a gyorsaságot
+- Kérdések egyénileg összeválogatása
 
 
 ## Igényelt üzleti folyamatok:
