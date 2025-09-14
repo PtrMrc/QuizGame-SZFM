@@ -22,7 +22,9 @@
 - Webes megjelenítés
 - Ranglista
 - 20 másodperces időkeret
-- Pontok nyílvántartása 
+- Pontok nyílvántartása
+- Kapott pontszám kiszámítása gyorsasághoz és helyességhez kötötten
+- Utólagos áttekintés 
 
 ## Követelmény lista:
 - A felhasználónak a játék kezdete előtt egy nevet kell megadnia, melyhez egy, az általa elért eredményt társítunk a játék végén.
