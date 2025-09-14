@@ -5,6 +5,9 @@
 - Jelenleg az órák főként frontális oktatásra épülnek, ami kevésbé köti le a diákok figyelmét.
 - Abból a célból, hogy óráinkat interaktívabbá tegyük, egy kvízt szeretnénk készíttetni.
 - A tananyag ismétlése és számonkérése hagyományos formában történik, ami nem minden diáknak motiváló.
+- A legjobban teljesítő diákokat jutalmaznánk, motiválva ezzel őket az órán való részvételre.
+- A kvíz átfogó és változatos kérdéseket tartalmazzon, segítve ezzel az ismeretszerzést.
+- A játék végeztével legyen lehetőségük átnézni a kérdésekre adott válaszokat, melyekből tanulhatnak.
 
 ## Jelenlegi üzleti folyamatok:
 - Papíralapú felmérések
