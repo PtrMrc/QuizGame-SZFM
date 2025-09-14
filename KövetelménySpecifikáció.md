@@ -16,3 +16,6 @@
 ## Követelmény lista:
 - A felhasználónak a játék kezdete előtt egy nevet kell megadnia, melyhez egy, az általa elért eredményt társítunk a játék végén.
 - Egy játék 10 kérdésből áll.
+- Az egy kérdésre kapott pontszám függ a válasz helyességétől és gyorsaságától is.
+- Minden kérdéshez 4 válaszlehetőség tartozik, melyből pontosan 1 válasz helyes.
+- A felhasználó kiválaszt egy választ, a program visszajelzést ad annak helyességéről és a kapott pontszámról.
