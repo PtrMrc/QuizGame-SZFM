@@ -1,7 +1,7 @@
-## Rendszerterv
+# Rendszerterv
 
-# A rendszer célja
+## A rendszer célja
 
-# Projektterv
+## Projektterv
 
-# Követelmények
+## Követelmények
