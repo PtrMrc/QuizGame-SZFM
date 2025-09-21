@@ -27,8 +27,30 @@
 - Csak a ténylegesen megvalósítandó követelmények
 
 ## Funkcionális terv
-- Rendszerszereplők
+- Rendszerszereplők:
+  -  Tanár: elindítja a játékot, összeválogatja a kérdéseket (opcionális)
+  -  Diák: belép a rendszerbe, kitölti a kvízt, megkapja a pontszámot
 - Rendszerhasználati esetek és lefutásaik
 - Határ osztályok
-- Menühierarchiák
-- Képernyőtervek
+- Menühierarchiák:
+  -  Kezdőképernyő:
+      - Név bevitel
+      - Játék indítása
+  -  Kérdés képernyő:
+      - Kérdés + válaszlehetőségek
+      - Időzítő
+      - Ideiglenes pontszám
+  -  Eredmény képernyő:
+      - Helyes válaszok száma
+      - Pontszám
+      - Ranglista
+      - Áttekintés gomb
+  -  Áttekintés képernyő:
+      - Kérdések listája
+      - Helytelen válasz
+      - Helyes válasz
+      - Vissza gomb
+- Képernyőtervek:
+  <img width="1091" height="428" alt="Képernyőterv" src="https://github.com/user-attachments/assets/bac03afc-ff1b-4ffc-83fa-5497e2fbd730" />
+
+  
