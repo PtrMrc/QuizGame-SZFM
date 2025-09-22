@@ -8,9 +8,8 @@
 
 ## Projektterv
 - 4 fejlesztő
-- Szerepkörök, felelősségek?
-- 1 hét?
-- Ütemterv?
+- Rendelkezésre álló időtartam: 1 hét
+- Ütemterv: 1 hét alatt alap funkciók elkészítése, tesztelése
 - Mérföldkövek:
   - kezdőlap
   - játékos nevének bevitele
