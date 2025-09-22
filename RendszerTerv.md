@@ -85,6 +85,10 @@
   - Diákok telefonról könnyen tudják használni
   - Színes, játékos grafika a motiváció fenntartására
 
+## Fizikai környezet
+- Használandó technológiák: Python, Flask, JSON, HTML, CSS, Javascript
+- Webes felületre, mobilon is reszponzívan megjelenítve
+
 ## Funkcionális terv
 - Rendszerszereplők:
   -  Tanár: elindítja a játékot, összeválogatja a kérdéseket (opcionális)
