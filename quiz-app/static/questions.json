@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Melyik évben volt a honfoglalás?",
+    "answers": ["896", "1000", "1241", "1526"],
+    "correct": 0
+  },
+  {
+    "question": "Mi Magyarország fővárosa?",
+    "answers": ["Debrecen", "Szeged", "Budapest", "Győr"],
+    "correct": 2
+  },
+  {
+    "question": "Mennyi 12 * 12?",
+    "answers": ["122", "144", "112", "124"],
+    "correct": 1
+  },
+  {
+    "question": "Ki írta a Himnuszt?",
+    "answers": ["Vörösmarty Mihály", "Arany János", "Kölcsey Ferenc", "Petőfi Sándor"],
+    "correct": 2
+  },
+  {
+    "question": "Melyik bolygó a Naprendszerben a legnagyobb?",
+    "answers": ["Föld", "Jupiter", "Mars", "Szaturnusz"],
+    "correct": 1
+  },
+  {
+    "question": "Melyik évben történt a mohácsi csata?",
+    "answers": ["1241", "1526", "1848", "1703"],
+    "correct": 1
+  },
+  {
+    "question": "Mi a víz kémiai képlete?",
+    "answers": ["H2O", "CO2", "NaCl", "O2"],
+    "correct": 0
+  },
+  {
+    "question": "Ki volt az első magyar király?",
+    "answers": ["Mátyás király", "Szent István", "IV. Béla", "I. László"],
+    "correct": 1
+  },
+  {
+    "question": "Melyik tenger határolja Magyarországot?",
+    "answers": ["Fekete-tenger", "Adriai-tenger", "Nincs tengerpartja", "Balti-tenger"],
+    "correct": 2
+  },
+  {
+    "question": "Hány fok a derékszög?",
+    "answers": ["45°", "90°", "120°", "180°"],
+    "correct": 1
+  }
+]
