@@ -2,6 +2,7 @@
 
 function startGame() {
   localStorage.removeItem("scoreAdded"); // Visszaállítás, új kör
+  localStorage.removeItem("playerAnswers");
   const name = document.getElementById('playerName').value;
   if (!name) {
     alert('Kérlek, add meg a neved!');
@@ -21,6 +22,7 @@ let score = 0;
 let timer;
 let timeLeft = 20;
 let totalQuestions = 0;
+let playerAnswers = [];
 
 async function loadQuestions() {
   const response = await fetch("questions.json");
@@ -74,6 +76,21 @@ function selectAnswer(index) {
     score += basePoints + speedBonus;
     correctAnswers++;
   }
+
+  //Megadott válasz eltárolása
+  if(!localStorage.getItem("playerAnswers")) {
+    localStorage.setItem("playerAnswers", JSON.stringify([]));
+  }
+
+  const answers = JSON.parse(localStorage.getItem("playerAnswers"));
+  answers.push({
+    question: questions[currentQuestion].question,
+    answers: questions[currentQuestion].answers,
+    correct: questions[currentQuestion].correct,
+    selected: index
+  });
+  localStorage.setItem("playerAnswers", JSON.stringify(answers));
+
   nextQuestion();
 }
 
@@ -151,11 +168,41 @@ if (document.body.contains(document.querySelector(".end-container"))) {
 
   list.appendChild(li);
 });
+
+  const toggleBtn = document.getElementById("toggle-review");
+  const reviewList = document.getElementById("review-list");
+  const answers = JSON.parse(localStorage.getItem("playerAnswers")) || [];
+
+  answers.forEach((q, i) => {
+      const li = document.createElement("li");
+      li.innerHTML = `
+          <strong>${i+1}. ${q.question}</strong><br>
+          ${q.answers.map((a, idx) => {
+              if(idx === q.correct) return `<span style="color:green">${a} ✅</span>`;
+              if(idx === q.selected && idx !== q.correct) return `<span style="color:red">${a} ❌</span>`;
+              return a;
+          }).join('<br>')}
+          <hr>
+      `;
+      reviewList.appendChild(li);
+  });
+
+  // Láthatóság változtatása
+  toggleBtn.addEventListener("click", () => {
+      if(reviewList.style.display === "none") {
+          reviewList.style.display = "block";
+          toggleBtn.textContent = "Kérdések elrejtése ▲";
+      } else {
+          reviewList.style.display = "none";
+          toggleBtn.textContent = "Kérdések áttekintése ▼";
+      }
+  });
 }
 
 // --- Restart gomb ---
 function restartGame() {
   localStorage.removeItem("scoreAdded");
+  localStorage.removeItem("playerAnswers");
   window.location.href = "/";
 }
 

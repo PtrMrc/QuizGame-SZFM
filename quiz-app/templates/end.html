@@ -19,6 +19,11 @@
     <button onclick="restartGame()" id="button">Új játék</button>
   </div>
 
+  <div class="review-container">
+    <button id="toggle-review">Kérdések áttekintése ▼</button>
+    <ul id="review-list" style="display:none;"></ul>
+  </div>
+
   <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
