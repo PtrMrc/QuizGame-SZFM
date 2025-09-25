@@ -68,7 +68,9 @@ function startTimer() {
 
 function selectAnswer(index) {
   if (index === questions[currentQuestion].correct) {
-    score += 100;
+    const basePoints = 50;
+    const speedBonus = timeLeft * 3; // 3 bónusz pont minden megmaradt másodpercért
+    score += basePoints + speedBonus;
     correctAnswers++;
   }
   nextQuestion();
