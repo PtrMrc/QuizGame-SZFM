@@ -23,7 +23,14 @@ let totalQuestions = 0;
 
 async function loadQuestions() {
   const response = await fetch("questions.json");
-  questions = await response.json();
+  allquestions = await response.json();
+
+  // Kérdések összekeverése
+  allquestions.sort(() => Math.random() - 0.5);
+
+  // Maximum 10 kérdés kiválasztása
+  questions = allquestions.slice(0, 10);
+
   totalQuestions = questions.length;
   loadQuestion();
 }

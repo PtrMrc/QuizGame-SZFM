@@ -3,10 +3,10 @@ from flask import Flask, render_template, send_from_directory
 app = Flask(__name__, static_folder="static", template_folder="templates")
 
 
-# kezdőlap (pl. main.html – ezt neked kell hozzáadni, ahol névbevitel van)
+# kezdőlap
 @app.route("/")
 def index():
-    return render_template("main.html")  # majd csinálj egy main.html fájlt
+    return render_template("main.html")
 
 
 # kérdések oldal
