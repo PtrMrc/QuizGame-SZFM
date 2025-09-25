@@ -1,52 +1,252 @@
 [
   {
-    "question": "Melyik évben volt a honfoglalás?",
-    "answers": ["896", "1000", "1241", "1526"],
+    "question": "Melyik bolygót nevezik Vörös Bolygónak?",
+    "answers": ["Föld", "Mars", "Jupiter", "Szaturnusz"],
+    "correct": 1
+  },
+  {
+    "question": "Mi Franciaország fővárosa?",
+    "answers": ["Berlin", "Madrid", "Párizs", "Róma"],
+    "correct": 2
+  },
+  {
+    "question": "Ki írta a 'Rómeó és Júlia' című művet?",
+    "answers": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
     "correct": 0
   },
   {
-    "question": "Mi Magyarország fővárosa?",
-    "answers": ["Debrecen", "Szeged", "Budapest", "Győr"],
-    "correct": 2
+    "question": "Mi a legnagyobb óceán a Földön?",
+    "answers": ["Atlanti-óceán", "Indiai-óceán", "Jeges-tenger", "Csendes-óceán"],
+    "correct": 3
   },
   {
-    "question": "Mennyi 12 * 12?",
-    "answers": ["122", "144", "112", "124"],
-    "correct": 1
-  },
-  {
-    "question": "Ki írta a Himnuszt?",
-    "answers": ["Vörösmarty Mihály", "Arany János", "Kölcsey Ferenc", "Petőfi Sándor"],
-    "correct": 2
-  },
-  {
-    "question": "Melyik bolygó a Naprendszerben a legnagyobb?",
-    "answers": ["Föld", "Jupiter", "Mars", "Szaturnusz"],
-    "correct": 1
-  },
-  {
-    "question": "Melyik évben történt a mohácsi csata?",
-    "answers": ["1241", "1526", "1848", "1703"],
-    "correct": 1
-  },
-  {
-    "question": "Mi a víz kémiai képlete?",
-    "answers": ["H2O", "CO2", "NaCl", "O2"],
+    "question": "Melyik elem kémiai jele 'O'?",
+    "answers": ["Oxigén", "Ószmium", "Oganesszon", "Ózon"],
     "correct": 0
   },
   {
-    "question": "Ki volt az első magyar király?",
-    "answers": ["Mátyás király", "Szent István", "IV. Béla", "I. László"],
+    "question": "Mi a leghosszabb folyó a világon?",
+    "answers": ["Amazonas", "Nílus", "Jangce", "Mississippi"],
     "correct": 1
   },
   {
-    "question": "Melyik tenger határolja Magyarországot?",
-    "answers": ["Fekete-tenger", "Adriai-tenger", "Nincs tengerpartja", "Balti-tenger"],
+    "question": "Ki festette a Mona Lisát?",
+    "answers": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
     "correct": 2
   },
   {
-    "question": "Hány fok a derékszög?",
-    "answers": ["45°", "90°", "120°", "180°"],
+    "question": "Mi a legkeményebb természetes anyag a Földön?",
+    "answers": ["Arany", "Vas", "Gyémánt", "Platina"],
+    "correct": 2
+  },
+  {
+    "question": "Melyik országot nevezik a Felkelő Nap országának?",
+    "answers": ["Kína", "Dél-Korea", "Japán", "Thaiföld"],
+    "correct": 2
+  },
+  {
+    "question": "Mi a legkisebb ország a világon?",
+    "answers": ["Monaco", "Nauru", "Vatikán", "San Marino"],
+    "correct": 2
+  },
+  {
+    "question": "Melyik bolygó áll a legközelebb a Naphoz?",
+    "answers": ["Merkúr", "Vénusz", "Föld", "Mars"],
+    "correct": 0
+  },
+  {
+    "question": "Mi a legnagyobb sivatag a világon?",
+    "answers": ["Sahara", "Arab-sivatag", "Gobi", "Antarktisz"],
+    "correct": 3
+  },
+  {
+    "question": "Ki találta fel a telefont?",
+    "answers": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Michael Faraday"],
+    "correct": 0
+  },
+  {
+    "question": "Melyik elem kémiai jele 'H'?",
+    "answers": ["Hélium", "Hidrogén", "Hafnium", "Holmium"],
     "correct": 1
+  },
+  {
+    "question": "Mi a Naprendszer legnagyobb bolygója?",
+    "answers": ["Föld", "Jupiter", "Szaturnusz", "Neptunusz"],
+    "correct": 1
+  },
+  {
+    "question": "Ki dolgozta ki a relativitáselméletet?",
+    "answers": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+    "correct": 1
+  },
+  {
+    "question": "Mi Japán fővárosa?",
+    "answers": ["Peking", "Szöul", "Tokió", "Bangkok"],
+    "correct": 2
+  },
+  {
+    "question": "Melyik óceán a legnagyobb terület alapján?",
+    "answers": ["Atlanti-óceán", "Indiai-óceán", "Jeges-tenger", "Csendes-óceán"],
+    "correct": 3
+  },
+  {
+    "question": "Ki fedezte fel a penicillint?",
+    "answers": ["Marie Curie", "Louis Pasteur", "Alexander Fleming", "Edward Jenner"],
+    "correct": 2
+  },
+  {
+    "question": "Mi az arany kémiai jele?",
+    "answers": ["Ag", "Au", "Pb", "Fe"],
+    "correct": 1
+  },
+  {
+    "question": "Melyik ország a legnagyobb terület szerint?",
+    "answers": ["Kanada", "Egyesült Államok", "Kína", "Oroszország"],
+    "correct": 3
+  },
+  {
+    "question": "Ki volt az első ember, aki a Holdra lépett?",
+    "answers": ["Buzz Aldrin", "Neil Armstrong", "Jurij Gagarin", "Michael Collins"],
+    "correct": 1
+  },
+  {
+    "question": "Mi a leghosszabb csont az emberi testben?",
+    "answers": ["Combcsont", "Sípcsont", "Szárkapocs", "Felkarcsont"],
+    "correct": 0
+  },
+  {
+    "question": "Melyik állatot nevezik a dzsungel királyának?",
+    "answers": ["Elefánt", "Oroszlán", "Tigris", "Zsiráf"],
+    "correct": 1
+  },
+  {
+    "question": "Mi Olaszország fővárosa?",
+    "answers": ["Madrid", "Róma", "Párizs", "Berlin"],
+    "correct": 1
+  },
+  {
+    "question": "Melyik bolygót nevezik a Föld ikerének?",
+    "answers": ["Vénusz", "Mars", "Merkúr", "Jupiter"],
+    "correct": 0
+  },
+  {
+    "question": "Mi az ezüst kémiai jele?",
+    "answers": ["Ag", "Au", "Pb", "Fe"],
+    "correct": 0
+  },
+  {
+    "question": "Melyik országot nevezik az Éjfél Nap országának?",
+    "answers": ["Norvégia", "Svédország", "Finnország", "Izland"],
+    "correct": 0
+  },
+  {
+    "question": "Mi Ausztrália fővárosa?",
+    "answers": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "correct": 2
+  },
+  {
+    "question": "Ki festette a Sixtus-kápolna mennyezetét?",
+    "answers": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+    "correct": 3
+  },
+  {
+    "question": "Melyik bolygót nevezik Hajnalcsillagnak?",
+    "answers": ["Vénusz", "Mars", "Jupiter", "Szaturnusz"],
+    "correct": 0
+  },
+  {
+    "question": "Mi Kanada fővárosa?",
+    "answers": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+    "correct": 1
+  },
+  {
+    "question": "Ki találta fel a villanykörtét?",
+    "answers": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Michael Faraday"],
+    "correct": 1
+  },
+  {
+    "question": "Mi a vas kémiai jele?",
+    "answers": ["Fe", "Ir", "I", "In"],
+    "correct": 0
+  },
+  {
+    "question": "Melyik országot nevezik a Mennydörgő Sárkány országának?",
+    "answers": ["Nepál", "Bhután", "Srí Lanka", "Maldív-szigetek"],
+    "correct": 1
+  },
+  {
+    "question": "Mi Spanyolország fővárosa?",
+    "answers": ["Barcelona", "Madrid", "Siviglia", "Valencia"],
+    "correct": 1
+  },
+  {
+    "question": "Ki írta a 'Büszkeség és balítélet'-et?",
+    "answers": ["Charlotte Brontë", "Jane Austen", "Emily Dickinson", "Virginia Woolf"],
+    "correct": 1
+  },
+  {
+    "question": "Mi a réz kémiai jele?",
+    "answers": ["Cu", "Co", "Cr", "Ca"],
+    "correct": 0
+  },
+  {
+    "question": "Melyik országot nevezik a Hosszú Fehér Felhő országának?",
+    "answers": ["Ausztrália", "Új-Zéland", "Fidzsi", "Szamoa"],
+    "correct": 1
+  },
+  {
+    "question": "Mi Németország fővárosa?",
+    "answers": ["Berlin", "München", "Frankfurt", "Hamburg"],
+    "correct": 0
+  },
+  {
+    "question": "Ki fedezte fel Amerikát?",
+    "answers": ["Kolumbusz Kristóf", "Ferdinánd Magellán", "Marco Polo", "Vasco da Gama"],
+    "correct": 0
+  },
+  {
+    "question": "Mi az ólom kémiai jele?",
+    "answers": ["Pb", "Li", "La", "Lu"],
+    "correct": 0
+  },
+  {
+    "question": "Melyik országot nevezik a Szabadság országának?",
+    "answers": ["Egyesült Államok", "Kanada", "Ausztrália", "Új-Zéland"],
+    "correct": 0
+  },
+  {
+    "question": "Mi Oroszország fővárosa?",
+    "answers": ["Moszkva", "Szentpétervár", "Novoszibirszk", "Jekatyerinburg"],
+    "correct": 0
+  },
+  {
+    "question": "Ki találta fel a repülőgépet?",
+    "answers": ["Wright fivérek", "Charles Lindbergh", "Amelia Earhart", "Howard Hughes"],
+    "correct": 0
+  },
+  {
+    "question": "Mi a higany kémiai jele?",
+    "answers": ["Hg", "Mn", "Me", "Mc"],
+    "correct": 0
+  },
+  {
+    "question": "Melyik országot nevezik a Juharlevél országának?",
+    "answers": ["Egyesült Államok", "Kanada", "Ausztrália", "Új-Zéland"],
+    "correct": 1
+  },
+  {
+    "question": "Mi Brazília fővárosa?",
+    "answers": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+    "correct": 2
+  },
+  {
+    "question": "Ki írta az '1984'-et?",
+    "answers": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Margaret Atwood"],
+    "correct": 1
+  },
+  {
+    "question": "Mi a cink kémiai jele?",
+    "answers": ["Zn", "Zr", "Zc", "Zp"],
+    "correct": 0
   }
 ]
