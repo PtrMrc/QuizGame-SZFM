@@ -240,3 +240,70 @@ button:hover {
     padding: 0.7rem;
   }
 }
+
+
+/* Review oldal */
+.review-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 900px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+#review-list {
+  list-style: none;
+  padding: 0;
+}
+
+#review-list li {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.7rem 1.2rem;
+  background: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.green-btn {
+  background: linear-gradient(135deg, #4CAF50, #81C784);
+}
+
+.green-btn:hover {
+  background: linear-gradient(135deg, #45a049, #66BB6A);
+}
+
+.review-container h1 {
+  font-size: 2rem;      
+  font-weight: bold;    
+  text-align: center;   
+  margin-bottom: 30px;  
+}
+
+#review-list {
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #ccc; 
+  padding: 10px;
+  border-radius: 5px;
+}
