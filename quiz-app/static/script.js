@@ -1,6 +1,7 @@
 // Kezdő oldal
 
 function startGame() {
+  localStorage.removeItem("scoreAdded"); // Visszaállítás, új kör
   const name = document.getElementById('playerName').value;
   if (!name) {
     alert('Kérlek, add meg a neved!');
@@ -111,13 +112,21 @@ if (document.body.contains(document.querySelector(".end-container"))) {
 
   // --- Ranglista localStorage-ban ---
   let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
-  leaderboard.push({ name: playerName, score: finalScore });
-  leaderboard.sort((a, b) => b.score - a.score);
-  leaderboard = leaderboard.slice(0, 15); // csak top 5
 
-  localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
+  // Ellenőrizve, hogy nincs-e már hozzáadva a pontszám (újratöltés esetén)
+  if (!localStorage.getItem("scoreAdded")){
+      leaderboard.push({ name: playerName, score: finalScore });
+      localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
+
+      // Hozzáadva jelölése
+      localStorage.setItem("scoreAdded", "true");
+  }
+
+  leaderboard.sort((a, b) => b.score - a.score);
+  leaderboard = leaderboard.slice(0, 15); // csak top 15
 
   const list = document.getElementById("leaderboard");
+  list.innerHTML = "";
 
   leaderboard.forEach((player, index) => {
   const li = document.createElement("li");
@@ -146,6 +155,7 @@ if (document.body.contains(document.querySelector(".end-container"))) {
 
 // --- Restart gomb ---
 function restartGame() {
+  localStorage.removeItem("scoreAdded");
   window.location.href = "/";
 }
 
