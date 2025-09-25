@@ -18,7 +18,7 @@ let correctAnswers = 0;
 let currentQuestion = 0;
 let score = 0;
 let timer;
-let timeLeft = 15;
+let timeLeft = 20;
 let totalQuestions = 0;
 
 async function loadQuestions() {
@@ -36,7 +36,7 @@ async function loadQuestions() {
 }
 
 function loadQuestion() {
-  timeLeft = 15;
+  timeLeft = 20;
   document.getElementById("timer").textContent = `Idő: ${timeLeft}s`;
   document.getElementById("score").textContent = `Pontok: ${score}`;
   document.getElementById("question").textContent = questions[currentQuestion].question;
@@ -51,13 +51,13 @@ function loadQuestion() {
 
 function startTimer() {
   clearInterval(timer);
-  timeLeft = 15;
+  timeLeft = 20;
   document.getElementById("time-bar").style.width = "100%";
 
   timer = setInterval(() => {
     timeLeft--;
     document.getElementById("timer").textContent = `Idő: ${timeLeft}s`;
-    document.getElementById("time-bar").style.width = (timeLeft / 15 * 100) + "%";
+    document.getElementById("time-bar").style.width = (timeLeft / 20 * 100) + "%";
 
     if (timeLeft <= 0) {
       clearInterval(timer);
