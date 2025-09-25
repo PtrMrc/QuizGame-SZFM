@@ -1,0 +1,41 @@
+# =======================
+# Python
+# =======================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Flask instance folder
+instance/
+
+# =======================
+# JavaScript / Node
+# =======================
+node_modules/
+
+# =======================
+# VSCode
+# =======================
+.vscode/
+
+# =======================
+# OS generated files
+# =======================
+.DS_Store
+Thumbs.db
+
+# =======================
+# Logs and databases
+# =======================
+*.log
+*.sqlite3
