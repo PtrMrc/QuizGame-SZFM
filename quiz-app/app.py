@@ -20,6 +20,10 @@ def quiz():
 def end():
     return render_template("end.html")
 
+# áttekintés oldal
+@app.route("/review")
+def review():
+    return render_template("review.html")
 
 # kérdések JSON kiszolgálása
 @app.route("/questions.json")
