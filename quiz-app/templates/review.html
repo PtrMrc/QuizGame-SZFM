@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Áttekintés</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="review-container card">
+    <h1>Kérdések áttekintése</h1>
+
+    <ul id="review-list"></ul>
+
+    <div class="nav-buttons">
+      <a href="{{ url_for('end') }}" class="btn green-btn">Vissza az eredményekhez</a>
+      <a href="{{ url_for('index') }}" class="btn green-btn">Főoldal</a>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='review.js') }}"></script>
+</body>
+</html>
