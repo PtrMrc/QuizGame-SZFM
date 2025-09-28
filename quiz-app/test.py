@@ -39,25 +39,31 @@ def test_questions_json_valid_structure(client):
     response = client.get("/questions.json")
     data = response.get_json()
     
-    assert isinstance(data, list), "JSON should be a list of questions"
+    assert isinstance(data, list), "Listának kell lennie"
     for i, q in enumerate(data):
-        assert "question" in q, f"Question {i} missing 'question' key"
-        assert "answers" in q, f"Question {i} missing 'answers' key"
-        assert "correct" in q, f"Question {i} missing 'correct' key"
+        assert "question" in q, f"Hiányzik a 'question' kulcs a {i}. kérdésnél"
+        assert "answers" in q, f"Hiányzik az 'answers' kulcs a {i}. kérdésnél"
+        assert "correct" in q, f"Hiányzik a 'correct' kulcs a {i}. kérdésnél"
         
         answers = q["answers"]
-        assert isinstance(answers, list), f"Question {i} answers should be a list"
-        assert len(answers) == 4, f"Question {i} should have exactly 4 answers"
+        assert isinstance(answers, list), f"Listának kell lennie az answers kulcsnak a {i}. kérdésnél"
+        assert len(answers) == 4, f"Pontosan 4 válasznak kell lennie a {i}. kérdésnél"
 
         correct = q["correct"]
-        assert isinstance(correct, int), f"Question {i} correct index should be an int"
-        assert 0 <= correct < 4, f"Question {i} correct index out of range"
+        assert isinstance(correct, int), f"Integernek kell lennie a correct kulcsnak a {i}. kérdésnél"
+        assert 0 <= correct < 4, f"Nincs érvényes index a correct kulcsnál a {i}. kérdésnél"
 
 def test_questions_non_empty_text(client):
     response = client.get("/questions.json")
     data = response.get_json()
     
     for i, q in enumerate(data):
-        assert q["question"].strip(), f"Question {i} text is empty"
+        assert q["question"].strip(), f"Hiányzik a kérdés szövege a {i}. kérdésnél"
         for j, ans in enumerate(q["answers"]):
-            assert ans.strip(), f"Question {i}, answer {j} is empty"
+            assert ans.strip(), f"Hiányzik a válasz szövege a {i}. kérdésnél, {j}. válasznál"
+
+'''Leaderboard meglétének ellenőrzése'''
+def test_end_page_has_leaderboard(client):
+    response = client.get("/end")
+    html = response.data.decode("utf-8")
+    assert "leaderboard" in html
